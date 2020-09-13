@@ -4,7 +4,9 @@ export default function Moves({ move }) {
   return move.map((res, index) => {
     return (
       <div>
-        <Move key={index} move={res} />
+        <ul>
+          <Move key={index} move={res} />
+        </ul>
       </div>
     );
   });
